@@ -1,0 +1,155 @@
+.site-header {
+  background-color: #fff;
+}
+
+.sitenav-list {
+  list-style: none;
+}
+
+.sitenav-link {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-link {
+  background-color: #ff7500;
+  font-style: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  background-color: #252420;
+  color: #fff;
+}
+
+.hero-content {
+  width: 390px;
+}
+
+.hero-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-img {
+  width: 510px;
+  height: 510px;
+}
+
+.hero-heading {
+  font-style: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+}
+
+.hero-text {
+  font-size: 16px;
+  font-style: regular;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.features {
+  background-color: #fff;
+}
+
+.features-heading {
+  font-style: bold;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.5px;
+}
+
+.feature-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.features-heading-item {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+}
+
+.features-text {
+  font-style: regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.features-icon {
+  width: 340px;
+}
+
+.aksiya {
+  background-color: #252420;
+  width: 1100px;
+}
+
+.promo-content {
+  width: 440px;
+}
+
+.aksiya-heading {
+  font-style: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.aksiya-text {
+  font-style: regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.spasing {
+  color: #ff7500;
+}
+
+.aksiya-img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.site-footer-divider {
+  height: 2px;
+  background-color: rgba(32, 36, 32, 0.5);
+}
+
+.site-footer-links {
+  width: 24px;
+}
+
+.site-footer-links a {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #252420;
+}
