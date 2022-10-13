@@ -12,6 +12,18 @@
   justify-content: space-between;
 }
 
+.logo-link {
+  transition: opaciyt 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
 .site-header-actions {
   display: flex;
   align-items: center;
@@ -31,6 +43,15 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.sitenav-link:hover {
+  color: #ff7500;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
 }
 
 .main-link {
@@ -42,6 +63,15 @@
   letter-spacing: 0.5px;
   text-decoration: none;
   color: #fff;
+  transition: 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
 }
 
 .hero {
@@ -206,4 +236,12 @@
   letter-spacing: 0.5px;
   text-decoration: none;
   color: #252420;
+}
+
+.site-footer-links a:hover {
+  color: #ff7500;
+}
+
+.site-footer-links a:focus {
+  opacity: 0.6;
 }
