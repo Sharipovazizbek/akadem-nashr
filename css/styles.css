@@ -1,9 +1,25 @@
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
+}
+
 .site-header {
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-actions {
+  display: flex;
+  align-items: center;
 }
 
 .sitenav-list {
   list-style: none;
+  display: flex;
 }
 
 .sitenav-link {
@@ -29,11 +45,14 @@
 }
 
 .hero {
+  display: flex;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
 
 .hero-content {
+  align-items: center;
   width: 390px;
 }
 
@@ -66,6 +85,12 @@
 
 .features {
   background-color: #fff;
+}
+
+.features-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 
 .features-heading {
@@ -103,6 +128,9 @@
 }
 
 .aksiya {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   width: 1100px;
 }
@@ -147,13 +175,27 @@
   list-style: none;
 }
 
+.footer-content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socil {
+  display: flex;
+}
+
 .site-footer-divider {
   height: 2px;
   background-color: rgba(32, 36, 32, 0.5);
 }
 
+.site-footer-buttom {
+  display: flex;
+}
+
 .site-footer-links {
-  width: 24px;
+  width: 224px;
 }
 
 .site-footer-links a {
