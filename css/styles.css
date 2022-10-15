@@ -1,4 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 .body {
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", "Arial", sans-serif;
@@ -10,11 +16,23 @@
   outline-offset: 3px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .site-header {
   background-color: #fff;
   padding-top: 16px;
   padding-bottom: 16px;
   border-top: 5px solid #ff7500;
+}
+
+.site-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,13 +111,16 @@
 }
 
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-content {
@@ -120,6 +141,7 @@
   border-radius: 8px;
   width: 510px;
   height: 510px;
+  box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 .hero-heading {
